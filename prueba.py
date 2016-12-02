@@ -1,0 +1,8 @@
+print("Inicio del script")
+f=open("C:\\Users\\VC2A515\\Clarosync\\Telcel\\Reportes SRS\\10 Oct 16\\texto1.txt","r")
+q=f.read()
+print(q)
+c=open("C:\\Users\\VC2A515\\Clarosync\\Telcel\\Reportes SRS\\10 Oct 16\\Clarov.txt","r")
+r=c.read()
+print(r)
+print("Fin del script")
