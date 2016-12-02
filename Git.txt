@@ -1,0 +1,284 @@
+Microsoft Windows [Versión 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation. Reservados todos los derechos.
+
+C:\Users\VC2A515>git
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+
+C:\Users\VC2A515>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: DA86-AD2D
+
+ Directorio de C:\Users\VC2A515
+
+01/12/2016  04:50 p.m.    <DIR>          .
+01/12/2016  04:50 p.m.    <DIR>          ..
+02/06/2016  03:42 p.m.    <DIR>          .android
+21/09/2016  01:48 p.m.    <DIR>          .atom
+14/04/2016  02:04 p.m.    <DIR>          .idlerc
+11/05/2016  04:35 p.m.    <DIR>          .oracle_jre_usage
+23/11/2016  09:17 a.m.    <DIR>          .Plays.tv
+01/12/2016  04:50 p.m.             5,544 .prueba.py.un~
+01/12/2016  11:57 a.m.            10,832 .prueba1.py.un~
+23/11/2016  09:17 a.m.    <DIR>          .QtWebEngineProcess
+01/12/2016  11:06 a.m.               946 .text.txt.un~
+28/11/2016  10:46 a.m.    <DIR>          Clarosync
+04/02/2016  10:48 a.m.    <DIR>          Contacts
+29/11/2016  02:56 p.m.    <DIR>          Desktop
+04/02/2016  10:47 a.m.    <DIR>          Documents
+02/12/2016  04:47 p.m.    <DIR>          Downloads
+07/11/2016  09:34 a.m.    <DIR>          Favorites
+23/11/2016  09:11 a.m.    <DIR>          Links
+24/06/2016  03:09 p.m.    <DIR>          Music
+01/12/2016  09:43 a.m.    <DIR>          OneDrive
+26/10/2016  05:27 p.m.    <DIR>          Pictures
+01/12/2016  04:50 p.m.               277 prueba.py
+01/12/2016  11:57 a.m.               312 prueba1.py
+01/12/2016  11:57 a.m.               311 prueba1.py~
+04/02/2016  10:48 a.m.    <DIR>          Saved Games
+04/02/2016  11:02 a.m.    <DIR>          Searches
+01/12/2016  11:06 a.m.                31 text.txt
+05/02/2016  10:04 a.m.    <DIR>          Tracing
+24/10/2016  08:52 a.m.    <DIR>          Videos
+01/12/2016  04:17 p.m.            13,812 _viminfo
+               8 archivos         32,065 bytes
+              22 dirs  163,492,085,760 bytes libres
+
+C:\Users\VC2A515>cd
+C:\Users\VC2A515
+
+C:\Users\VC2A515>mkdir Git
+
+C:\Users\VC2A515>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: DA86-AD2D
+
+ Directorio de C:\Users\VC2A515
+
+02/12/2016  05:12 p.m.    <DIR>          .
+02/12/2016  05:12 p.m.    <DIR>          ..
+02/06/2016  03:42 p.m.    <DIR>          .android
+21/09/2016  01:48 p.m.    <DIR>          .atom
+14/04/2016  02:04 p.m.    <DIR>          .idlerc
+11/05/2016  04:35 p.m.    <DIR>          .oracle_jre_usage
+23/11/2016  09:17 a.m.    <DIR>          .Plays.tv
+01/12/2016  04:50 p.m.             5,544 .prueba.py.un~
+01/12/2016  11:57 a.m.            10,832 .prueba1.py.un~
+23/11/2016  09:17 a.m.    <DIR>          .QtWebEngineProcess
+01/12/2016  11:06 a.m.               946 .text.txt.un~
+28/11/2016  10:46 a.m.    <DIR>          Clarosync
+04/02/2016  10:48 a.m.    <DIR>          Contacts
+29/11/2016  02:56 p.m.    <DIR>          Desktop
+04/02/2016  10:47 a.m.    <DIR>          Documents
+02/12/2016  04:47 p.m.    <DIR>          Downloads
+07/11/2016  09:34 a.m.    <DIR>          Favorites
+02/12/2016  05:12 p.m.    <DIR>          Git
+23/11/2016  09:11 a.m.    <DIR>          Links
+24/06/2016  03:09 p.m.    <DIR>          Music
+01/12/2016  09:43 a.m.    <DIR>          OneDrive
+26/10/2016  05:27 p.m.    <DIR>          Pictures
+01/12/2016  04:50 p.m.               277 prueba.py
+01/12/2016  11:57 a.m.               312 prueba1.py
+01/12/2016  11:57 a.m.               311 prueba1.py~
+04/02/2016  10:48 a.m.    <DIR>          Saved Games
+04/02/2016  11:02 a.m.    <DIR>          Searches
+01/12/2016  11:06 a.m.                31 text.txt
+05/02/2016  10:04 a.m.    <DIR>          Tracing
+24/10/2016  08:52 a.m.    <DIR>          Videos
+01/12/2016  04:17 p.m.            13,812 _viminfo
+               8 archivos         32,065 bytes
+              23 dirs  163,492,184,064 bytes libres
+
+C:\Users\VC2A515>cd Git
+
+C:\Users\VC2A515\Git>git init
+Initialized empty Git repository in C:/Users/VC2A515/Git/.git/
+
+C:\Users\VC2A515\Git>cd ..
+
+C:\Users\VC2A515>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: DA86-AD2D
+
+ Directorio de C:\Users\VC2A515
+
+02/12/2016  05:12 p.m.    <DIR>          .
+02/12/2016  05:12 p.m.    <DIR>          ..
+02/06/2016  03:42 p.m.    <DIR>          .android
+21/09/2016  01:48 p.m.    <DIR>          .atom
+14/04/2016  02:04 p.m.    <DIR>          .idlerc
+11/05/2016  04:35 p.m.    <DIR>          .oracle_jre_usage
+23/11/2016  09:17 a.m.    <DIR>          .Plays.tv
+01/12/2016  04:50 p.m.             5,544 .prueba.py.un~
+01/12/2016  11:57 a.m.            10,832 .prueba1.py.un~
+23/11/2016  09:17 a.m.    <DIR>          .QtWebEngineProcess
+01/12/2016  11:06 a.m.               946 .text.txt.un~
+28/11/2016  10:46 a.m.    <DIR>          Clarosync
+04/02/2016  10:48 a.m.    <DIR>          Contacts
+29/11/2016  02:56 p.m.    <DIR>          Desktop
+04/02/2016  10:47 a.m.    <DIR>          Documents
+02/12/2016  04:47 p.m.    <DIR>          Downloads
+07/11/2016  09:34 a.m.    <DIR>          Favorites
+02/12/2016  05:12 p.m.    <DIR>          Git
+23/11/2016  09:11 a.m.    <DIR>          Links
+24/06/2016  03:09 p.m.    <DIR>          Music
+01/12/2016  09:43 a.m.    <DIR>          OneDrive
+26/10/2016  05:27 p.m.    <DIR>          Pictures
+01/12/2016  04:50 p.m.               277 prueba.py
+01/12/2016  11:57 a.m.               312 prueba1.py
+01/12/2016  11:57 a.m.               311 prueba1.py~
+04/02/2016  10:48 a.m.    <DIR>          Saved Games
+04/02/2016  11:02 a.m.    <DIR>          Searches
+01/12/2016  11:06 a.m.                31 text.txt
+05/02/2016  10:04 a.m.    <DIR>          Tracing
+24/10/2016  08:52 a.m.    <DIR>          Videos
+01/12/2016  04:17 p.m.            13,812 _viminfo
+               8 archivos         32,065 bytes
+              23 dirs  163,491,135,488 bytes libres
+
+C:\Users\VC2A515>move prueba.py C:\Users\VC2A515\Git
+Se han movido         1 archivos.
+
+C:\Users\VC2A515>move prueba1.py C:\Users\VC2A515\Git
+Se han movido         1 archivos.
+
+C:\Users\VC2A515>cd Git
+
+C:\Users\VC2A515\Git>commit -m "first commit"
+"commit" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\Users\VC2A515\Git>git commit -m "first commit"
+On branch master
+
+Initial commit
+
+Untracked files:
+        prueba.py
+        prueba1.py
+
+nothing added to commit but untracked files present
+
+C:\Users\VC2A515\Git>git remote add origin https://github.com/bernardomh/pythond
+ev.git
+
+C:\Users\VC2A515\Git>push -u origin master
+"push" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\Users\VC2A515\Git>git push -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/bernardomh/pythondev.git'
+
+
+C:\Users\VC2A515\Git>git remote add origin https://github.com/bernardomh/pythond
+ev.git
+fatal: remote origin already exists.
+
+C:\Users\VC2A515\Git>git push -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/bernardomh/pythondev.git'
+
+
+C:\Users\VC2A515\Git>git add*
+git: 'add*' is not a git command. See 'git --help'.
+
+Did you mean this?
+        add
+
+C:\Users\VC2A515\Git>git add *
+
+C:\Users\VC2A515\Git>git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   prueba.py
+        new file:   prueba1.py
+
+
+C:\Users\VC2A515\Git>git commit -m "first commit"
+[master (root-commit) c1704e8] first commit
+ Committer: BERNARDO BENJAMIN MEJIA HUERTA <VC2A515@telcel.net>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 24 insertions(+)
+ create mode 100644 prueba.py
+ create mode 100644 prueba1.py
+
+C:\Users\VC2A515\Git>git remote add PythonDev https://github.com/bernardomh/pyth
+ondev.git
+
+C:\Users\VC2A515\Git>git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+
+C:\Users\VC2A515\Git>git push --set-upstream origin master
+^C
+C:\Users\VC2A515\Git>git push -f origin master
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 596 bytes | 0 bytes/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/bernardomh/pythondev.git
+ * [new branch]      master -> master
+
+C:\Users\VC2A515\Git>
